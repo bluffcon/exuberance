@@ -1,0 +1,107 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "!jukebox_playable": {},
+                "rarity": "uncommon",
+                "max_stack_size": 1,
+                "item_model": "arbiterlib:exuberance/crystal_stick",
+                "item_name": {
+                  "translate": "item.exuberance.crystal_stick"
+                },
+                "custom_data": {
+                  "arbiterlib": {
+                    "namespace": "exuberance",
+                    "id": "crystal_stick"
+                  },
+                  "exuberance": {
+                    "mfw": "attack_main",
+                    "mfw_function": "crystal_stick",
+                    "mfw_namespace": "exuberance"
+                  }
+                },
+                "lore": [
+                  {
+                    "translate": "item.exuberance.crystal_stick.description",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "ui.exuberance.mfw.abilities",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "translate": "ui.exuberance.mfw.on_hit",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {"text": "  · ","color": "white"},
+                    {
+                      "translate": "item.exuberance.crystal_stick.mfw.1",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.vector",
+                      "color": "#7fecec",
+                      "italic": false
+                    },
+                    {
+                      "text": "+1",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {"text": "  · ","color": "white"},
+                    {
+                      "translate": "item.exuberance.crystal_stick.mfw.2",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.index",
+                      "color": "#fa744b",
+                      "italic": false
+                    },
+                    {
+                      "text": "-1",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "translate": "id.exuberance.short",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              }
+            },
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "!jukebox_playable": {},
+                "rarity": "uncommon",
+                "max_stack_size": 1,
+                "item_model": "arbiterlib:exuberance/amethyst_bone",
+                "item_name": {
+                  "translate": "item.exuberance.amethyst_bone"
+                },
+                "custom_data": {
+                  "arbiterlib": {
+                    "namespace": "exuberance",
+                    "id": "amethyst_bone"
+                  },
+                  "exuberance": {
+                    "mfw": "attack_main",
+                    "mfw_function": "amethyst_bone",
+                    "mfw_namespace": "exuberance"
+                  }
+                },
+                "lore": [
+                  {
+                    "translate": "item.exuberance.amethyst_bone.description",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "ui.exuberance.mfw.abilities",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "translate": "ui.exuberance.mfw.on_hit",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {"text": "  · ","color": "white"},
+                    {
+                      "translate": "item.exuberance.amethyst_bone.mfw.1",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.shatter_pts",
+                      "color": "#a578ec",
+                      "italic": false
+                    },
+                    {
+                      "text": "+1",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.vector",
+                      "color": "#7fecec",
+                      "italic": false
+                    },
+                    {
+                      "text": "-5",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.index",
+                      "color": "#fa744b",
+                      "italic": false
+                    },
+                    {
+                      "text": "+15",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "translate": "id.exuberance.short",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              }
+            },
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

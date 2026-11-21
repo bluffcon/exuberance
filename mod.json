@@ -1,0 +1,31 @@
+{
+  "id": "exuberance",
+  "name": "Exuberance",
+  "description": "Be one with Redstone! Undergo a Redstone transformation and gain access to many esoteric items!",
+  "license": "MIT",
+  "authors": ["bluffcon", "ArbiterLib"],
+  "homepage": "https://modrinth.com/datapack/exuberance",
+  "sources": "https://github.com/bluffcon/exuberance",
+  "issues": "https://github.com/bluffcon/exuberance/issues",
+  "icon": "pack.png",
+
+  "main_mod": false,
+
+  "library": {
+    "id": "arbiterlib",
+    "modrinth_project_id": "aHzaVmyo",
+    "min_version": 20
+  },
+
+  "modrinth": {
+    "project_id": "REPLACE_THIS",
+    "game_versions": ["26.3"],
+    "channel": "release",
+    "environment": "server_only_client_optional"
+  },
+
+  "resource_pack": {
+    "present": false,
+    "required": false
+  }
+}

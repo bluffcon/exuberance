@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "mainhand": {
+                                "predicates": {
+                                    "custom_data": {"exuberance": {"mfw": "attack_main"}}
+                                }
+                            }
+                        }
+                    }
+                },
+                "damage": {
+                    "dealt": {"min": 0.6}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "exuberance:mfw/trigger/main"
+    }
+}

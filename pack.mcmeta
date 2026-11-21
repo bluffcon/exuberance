@@ -1,0 +1,16 @@
+{
+    "pack": {
+        "description": [
+          	{"sprite": "item/redstone", "atlas": "items"}, " ",
+			{"fallback":"Exuberance", "color":"#fd283a","underlined": true,"translate": "mcmeta.exuberance.1"},
+			{"text":": ", "color":"#d7dbdd","underlined": false},
+			{"fallback":"Be one with Redstone!", "color":"#a16060","underlined": false,"translate": "mcmeta.exuberance.2"},
+			{"text":" [×VER×]","color": "#57575c"},
+			{"text":" | ","color":"#57575c","underlined": false},
+			{"fallback":" by bluffcon + ArbiterLib", "color":"#cdcdd1","underlined": false,"translate": "mcmeta.exuberance.3"}
+		],
+
+        "min_format": [121,0],
+        "max_format": [121,0]
+    }
+}
