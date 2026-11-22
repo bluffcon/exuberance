@@ -1,0 +1,146 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "!jukebox_playable": {},
+                "consumable": {"sound": "block.amethyst_block.chime","animation": "crossbow","consume_seconds": 1,"has_consume_particles": false},
+                "rarity": "uncommon",
+                "max_stack_size": 2,
+                "item_model": "arbiterlib:exuberance/crystal_ball",
+                "item_name": {
+                  "translate": "item.exuberance.crystal_ball"
+                },
+                "custom_data": {
+                  "arbiterlib": {
+                    "namespace": "exuberance",
+                    "id": "crystal_ball"
+                  },
+                  "exuberance": {
+                    "mfw": "use",
+                    "mfw_function": "crystal_ball",
+                    "mfw_namespace": "exuberance"
+                  }
+                },
+                "lore": [
+                  {
+                    "translate": "item.exuberance.crystal_ball.description",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "ui.exuberance.mfw.abilities",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "translate": "ui.exuberance.mfw.use_aoe",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "8",
+                      "color": "aqua",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {"text": "  · ","color": "white"},
+                    {
+                      "translate": "item.exuberance.crystal_ball.mfw.1",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.factor",
+                      "color": "#67d36d",
+                      "italic": false
+                    },
+                    {
+                      "text": "+2",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {"text": "  · ","color": "white"},
+                    {
+                      "translate": "item.exuberance.crystal_ball.mfw.2",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.shatter_pts",
+                      "color": "#a578ec",
+                      "italic": false
+                    },
+                    {
+                      "text": "+1",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.index",
+                      "color": "#fa744b",
+                      "italic": false
+                    },
+                    {
+                      "text": "/ 2",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.vector",
+                      "color": "#7fecec",
+                      "italic": false
+                    },
+                    {
+                      "text": "+ 0.5 * ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "translate": "ui.exuberance.factor_plain",
+                      "color": "#67d36d",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "translate": "id.exuberance.short",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              }
+            },
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

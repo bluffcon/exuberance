@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "entity_scores",
+                    "entity": "this",
+                    "scores": {"exuberance.shatter": {"min": 6, "max": 9}}
+                },
+                "killing_blow": {
+                    "is_direct": true
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "exuberance:mech/shatter/kill_shattered_up5"
+    }
+}
