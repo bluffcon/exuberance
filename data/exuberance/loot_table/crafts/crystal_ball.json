@@ -11,9 +11,9 @@
               "type": "set_components",
               "components": {
                 "!jukebox_playable": {},
-                "consumable": {"sound": "block.amethyst_block.chime","animation": "crossbow","consume_seconds": 1,"has_consume_particles": false},
+                "consumable": {"sound": "block.amethyst_block.chime","animation": "drink","consume_seconds": 1,"has_consume_particles": false},
                 "rarity": "uncommon",
-                "max_stack_size": 2,
+                "max_stack_size": 1,
                 "item_model": "arbiterlib:exuberance/crystal_ball",
                 "item_name": {
                   "translate": "item.exuberance.crystal_ball"
@@ -69,6 +69,19 @@
                     },
                     {
                       "text": "+2",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.damage",
+                      "color": "red",
+                      "italic": false
+                    },
+                    {
+                      "text": "1",
                       "color": "white",
                       "italic": false
                     }

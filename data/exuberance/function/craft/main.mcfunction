@@ -97,3 +97,19 @@ unless items block ~ ~ ~ container.21 * \
 \
 run return run function arbiterlib:craft/workbench/craft/macro \
 {namespace:"exuberance", loottable:"amethyst_bone", rarity:"uncommon", max_stack:1, count:1}
+
+execute \
+if items block ~ ~ ~ container.1 amethyst_cluster \
+if items block ~ ~ ~ container.2 amethyst_block \
+if items block ~ ~ ~ container.3 amethyst_cluster \
+\
+if items block ~ ~ ~ container.10 amethyst_block \
+if items block ~ ~ ~ container.11 enchanting_table \
+if items block ~ ~ ~ container.12 amethyst_block \
+\
+if items block ~ ~ ~ container.19 amethyst_cluster \
+if items block ~ ~ ~ container.20 amethyst_block \
+if items block ~ ~ ~ container.21 amethyst_cluster \
+\
+run return run function arbiterlib:craft/workbench/craft/macro \
+{namespace:"exuberance", loottable:"crystal_ball", rarity:"uncommon", max_stack:1, count:1}

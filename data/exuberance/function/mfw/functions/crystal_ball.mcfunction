@@ -3,6 +3,7 @@ loot spawn ~ ~ ~ loot exuberance:crafts/crystal_ball
 execute as @e[type=item,distance=..0.2] run data modify entity @s PickupDelay set value 1
 
 execute if score @s exuberance.index matches -10..10 if score @s exuberance.factor matches ..20 if entity @e[distance=0.1..8,type=!#arbiterlib:inanimate] run playsound block.enchantment_table.use player @a ~ ~ ~ 1 2
+execute if score @s exuberance.index matches -10..10 if score @s exuberance.factor matches ..20 as @e[distance=0.1..8,type=!#arbiterlib:inanimate] run damage @s 1 magic
 execute if score @s exuberance.index matches -10..10 if score @s exuberance.factor matches ..20 if entity @e[distance=0.1..8,type=!#arbiterlib:inanimate] run return run scoreboard players add @s exuberance.factor 2
 
 
