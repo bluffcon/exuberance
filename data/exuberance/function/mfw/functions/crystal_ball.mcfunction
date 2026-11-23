@@ -17,3 +17,4 @@ scoreboard players operation #temp exuberance.math = @s exuberance.factor
 scoreboard players operation #temp exuberance.math /= #2 exuberance.math
 scoreboard players operation @s exuberance.vector += #temp exuberance.math
 playsound block.enchantment_table.use player @a ~ ~ ~ 1 1
+particle flash{color:-1} ~ ~0.5 ~ 0 0.2 0 0 3

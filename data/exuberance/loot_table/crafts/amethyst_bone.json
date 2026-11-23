@@ -91,6 +91,66 @@
                       "italic": false
                     }
                   ],
+                  [
+                    {"text": "  · ","color": "white"},
+                    {
+                      "translate": "item.exuberance.amethyst_bone.mfw.2",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.shatter_pts",
+                      "color": "#a578ec",
+                      "italic": false
+                    },
+                    {
+                      "text": "+1",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.index",
+                      "color": "#fa744b",
+                      "italic": false
+                    },
+                    {
+                      "text": "-40",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.vector",
+                      "color": "#7fecec",
+                      "italic": false
+                    },
+                    {
+                      "text": "/ 2",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.factor",
+                      "color": "#67d36d",
+                      "italic": false
+                    },
+                    {
+                      "text": "/ 2",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
                   {
                     "translate": "id.exuberance.short",
                     "color": "blue",

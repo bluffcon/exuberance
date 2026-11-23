@@ -1,6 +1,10 @@
 
 
 
+particle end_rod ~ ~ ~ 0.1 0.1 0.1 0.1 20
+particle end_rod ~ ~ ~ 0.1 0.1 0.1 0.6 30
+particle end_rod ~ ~ ~ 0.1 0.1 0.1 0.9 10
+
 particle block{block_state:"amethyst_block"} ~ ~ ~ 0.2 0.2 0.2 1 20
 particle block{block_state:"amethyst_block"} ~ ~1 ~ 1 1 1 2 40
 particle block{block_state:"amethyst_block"} ~ ~1 ~ 2 2 2 3 80

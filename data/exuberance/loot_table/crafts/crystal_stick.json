@@ -86,6 +86,53 @@
                       "italic": false
                     }
                   ],
+                  [
+                    {"text": "  · ","color": "white"},
+                    {
+                      "translate": "item.exuberance.crystal_stick.mfw.3",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.shatter_pts",
+                      "color": "#a578ec",
+                      "italic": false
+                    },
+                    {
+                      "text": "+2",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.vector",
+                      "color": "#7fecec",
+                      "italic": false
+                    },
+                    {
+                      "text": "/ 2",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    "       ",
+                    {
+                      "translate": "ui.exuberance.factor",
+                      "color": "#67d36d",
+                      "italic": false
+                    },
+                    {
+                      "text": "-20",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
                   {
                     "translate": "id.exuberance.short",
                     "color": "blue",
